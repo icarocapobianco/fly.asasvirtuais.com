@@ -1,4 +1,4 @@
-FROM zenika/alpine-chrome:with-node
+FROM node:lts-alpine3.18
 
 WORKDIR ./
 
@@ -11,7 +11,5 @@ COPY --chown=chrome . ./
 COPY ./build ./build
 
 ENV PORT=4000
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD 1
-ENV PUPPETEER_EXECUTABLE_PATH /usr/bin/chromium-browser
 
 CMD [ "npm","start" ]
