@@ -1,5 +1,5 @@
 {
-  "name": "@asasvirtuais/server",
+  "name": "@asasvirtuais/fly",
   "private": true,
   "type": "module",
   "scripts": {
