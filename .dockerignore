@@ -6,7 +6,5 @@ npm-debug.log
 README.md
 .next
 .git
-.wwebjs_cache
-.wwebjs_auth
 public
 src
