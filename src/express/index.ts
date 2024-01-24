@@ -13,4 +13,8 @@ export default function expressIndex( app: Express ) {
         attemptSilentLogin: true
     }))
 
+    app.get('/', (_req, res) => {
+        res.send('<a href="https://github.com/icarocapobianco/fly.asasvirtuais.com">github.com/icarocapobianco/fly.asasvirtuais.com</a>')
+    })
+
 }
