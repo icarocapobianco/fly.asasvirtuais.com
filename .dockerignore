@@ -1,0 +1,12 @@
+fly.toml
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+README.md
+.next
+.git
+.wwebjs_cache
+.wwebjs_auth
+public
+src
