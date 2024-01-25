@@ -1,6 +1,6 @@
 ### fly.asasvirtuais.com
 
-NodeJS + Socket.IO + Express
+NodeJS + Socket.IO + Express + Jest
 
 Deployed on [fly.io](https://fly.io)
 
